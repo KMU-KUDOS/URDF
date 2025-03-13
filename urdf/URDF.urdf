@@ -86,7 +86,7 @@
   </link>
   <joint
     name="joint_1"
-    type="revolute">
+    type="continuous">
     <origin
       xyz="0 0 0.016"
       rpy="0 0 0" />
@@ -155,8 +155,8 @@
     <axis
       xyz="0 -1 0" />
     <limit
-      lower="0"
-      upper="0"
+      lower="-1.5"
+      upper="1.5"
       effort="0"
       velocity="0" />
   </joint>
@@ -213,8 +213,8 @@
     <axis
       xyz="0 -1 0" />
     <limit
-      lower="0"
-      upper="0"
+      lower="-3.1"
+      upper="0.25"
       effort="0"
       velocity="0" />
   </joint>
@@ -260,7 +260,7 @@
   </link>
   <joint
     name="joint_4"
-    type="revolute">
+    type="continuous">
     <origin
       xyz="-0.083472071148278 1.39946780669566E-05 0.275646856718986"
       rpy="0 0 0" />
@@ -329,8 +329,8 @@
     <axis
       xyz="0 -1 0" />
     <limit
-      lower="0"
-      upper="0"
+      lower="-1.575"
+      upper="1.575"
       effort="0"
       velocity="0" />
   </joint>
@@ -376,7 +376,7 @@
   </link>
   <joint
     name="joint_6"
-    type="revolute">
+    type="continuous">
     <origin
       xyz="0 1.50071597443805E-05 0.079"
       rpy="0 0 0" />
